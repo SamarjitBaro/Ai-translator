@@ -43,7 +43,7 @@ export const Box = () => {
     }
   };
 
-  const translateText = async (event) => {
+  const translateText = async () => {
     // event.preventDefault();
     console.log("button clicked");
     try {
@@ -55,9 +55,6 @@ export const Box = () => {
     } catch (error) {
       console.error("Translation error:", error);
     }
-  };
-  const goo = () => {
-    console.log("hello");
   };
 
   return (
